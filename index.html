@@ -6,29 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://img.icons8.com/color/16/000000/ice-king.png">
     <title>Mi Portafolio</title>
 </head>
 <body>
     <nav class="navbar">
         <img src="https://img.icons8.com/doodle/48/000000/french-fries.png" alt="IconPapitasFritas">
         <ul>
-            <a href="#"><li>Quién soy</li></a>
+            <a href="#presentacion"><li>Quién soy</li></a>
             <a href="#"><li>Mis Proyectos</li></a>
+            <a href="#social-media"><li>Contáctame</li></a>
         </ul>
     </nav>
-    <div class="container">
-        <section class="container-presentación">
-            <img src="" alt="">
-            <h1>Jhon Sebastián Martínez Soto</h1>
-            <h2>¿Quién soy?</h2>
-            <p>Soy Sebastián Martínez, pero puedes llamarme Sebas, soy estudiante de Desarrollo de Software y actualmente estoy en 
-                quinto semestre, soy un apasionado por el desarrollo web, me encanta aprender y cada día estoy en disposición de hacerlo,
-                me encanta asumir riezgos y problemas a los cuales les puedo dar solución. 
-            </p>
 
+    <div class="container" id="presentacion">
+        <section class="container-presentación">
+            <div>
+                <img class="image-selfie" src="./images/selfie.png" alt="">
+            </div>
+
+            <div class="presentation">
+                <h1>Jhon Sebastián Martínez Soto</h1>
+                <h2>21 años</h2>
+                <h2>¿Quién soy?</h2>
+                <p>Soy Sebastián Martínez, pero puedes llamarme Sebas, soy estudiante de Desarrollo de Software y actualmente estoy en 
+                    quinto semestre, soy un apasionado por el desarrollo web, me encanta aprender y cada día estoy en disposición de hacerlo,
+                    me encanta asumir riezgos y problemas a los cuales les puedo dar solución. 
+                </p>
+                <h2>Mis conocimientos</h2>
+                <p>Actualmente tengo conocimientos solidos en HTML, CSS y Javascript, SQLServer y bases de datos relacionales y POO, también tengo conocimientos básicos en C# y Java, actualmente me encuentro en proceso de aprendizaje de React.js y Node.js</p>
+            </div>
+            
+            <div class="social-media" id="social-media">
+                <a href="https://twitter.com/Jhsebastian1" target="_blank"><img src="https://img.icons8.com/doodle/48/000000/twitter--v3.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/sebastian-martinez-soto-36b50115b/" target="_blank"><img src="https://img.icons8.com/doodle/48/000000/linkedin--v2.png" alt=""></a>
+                <a href="https://www.instagram.com/jhsebas_/" target="_blank"><img src="https://img.icons8.com/doodle/48/000000/instagram--v3.png" alt=""></a>                       
+                <a href="https://github.com/jhsebastian" target="_blank"><img src="https://img.icons8.com/doodle/48/000000/github.png"></a>
+            </div>
         </section>
     </div>
-    
-    <footer></footer>
+    <footer class="footer">
+        <p>Let's learn together</p>
+        <p>Made with 💚 by @Jhsebastian1</p>
+    </footer>
 </body>
 </html>

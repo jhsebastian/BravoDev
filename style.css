@@ -31,4 +31,41 @@ body {
 
 .container{
     background-image: linear-gradient(rgb(254, 102, 125), rgb(255, 163, 117));
+    margin: 0;
+    align-items: center;
+}
+
+.image-selfie{
+    margin-top: 60px;
+    margin-left: 38%;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: double white 5px;
+}
+
+.presentation{
+    text-align: center;
+}
+.presentation h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.presentation h2{
+    font-size: 30px;
+}
+
+.presentation p{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: rgb(255, 163, 117);
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
 }
