@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(254, 102, 125);
+    text-align: center;
+    color: white;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    color: rgb(186, 195, 204);
+}
+
+.navbar ul li {
+    margin-right: 10px;
+}
