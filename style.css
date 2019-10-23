@@ -45,6 +45,12 @@ body {
     border: double white 5px;
 }
 
+.image-selfie:hover{
+    width: 400;
+    height: 400;
+    border: solid white 15px;
+}
+
 .presentation{
     text-align: center;
     padding-bottom: 100px;
